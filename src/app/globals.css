@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Geist', sans-serif; /* Using Geist font from layout */
+}
+
+@layer base {
+  :root {
+    --background: 220 20% 98%; /* Light Gray */
+    --foreground: 220 15% 25%; /* Dark Gray */
+    --card: 220 20% 100%;
+    --card-foreground: 220 15% 25%;
+    --popover: 220 20% 100%;
+    --popover-foreground: 220 15% 25%;
+    --primary: 180 65% 50%; /* Teal */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 220 15% 90%; /* Lighter Gray */
+    --secondary-foreground: 220 15% 25%;
+    --muted: 220 15% 90%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 47 100% 70%; /* Yellow */
+    --accent-foreground: 220 15% 15%; /* Darker Gray/Black */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 15% 88%;
+    --input: 220 15% 92%;
+    --ring: 180 65% 50%; /* Teal for ring */
+    --chart-1: 180 70% 50%;
+    --chart-2: 180 60% 45%;
+    --chart-3: 180 50% 40%;
+    --chart-4: 47 80% 65%;
+    --chart-5: 47 90% 75%;
+    --radius: 0.5rem;
+    --sidebar-background: 220 20% 96%;
+    --sidebar-foreground: 220 15% 25%;
+    --sidebar-primary: 180 65% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 15% 90%;
+    --sidebar-accent-foreground: 220 15% 25%;
+    --sidebar-border: 220 15% 88%;
+    --sidebar-ring: 180 65% 50%;
+  }
+
+  .dark {
+    --background: 220 15% 15%; /* Dark Gray */
+    --foreground: 220 10% 90%; /* Light Gray */
+    --card: 220 15% 20%;
+    --card-foreground: 220 10% 90%;
+    --popover: 220 15% 20%;
+    --popover-foreground: 220 10% 90%;
+    --primary: 180 60% 55%; /* Slightly brighter Teal for dark mode */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 10% 25%; /* Darker Gray */
+    --secondary-foreground: 220 10% 90%;
+    --muted: 220 10% 25%;
+    --muted-foreground: 220 10% 60%;
+    --accent: 47 100% 70%; /* Yellow */
+    --accent-foreground: 220 15% 15%; /* Darker Gray/Black */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 10% 30%;
+    --input: 220 10% 28%;
+    --ring: 180 60% 55%; /* Teal for ring */
+    --chart-1: 180 70% 60%;
+    --chart-2: 180 60% 55%;
+    --chart-3: 180 50% 50%;
+    --chart-4: 47 80% 70%;
+    --chart-5: 47 90% 80%;
+    --radius: 0.5rem;
+    --sidebar-background: 220 15% 20%;
+    --sidebar-foreground: 220 10% 90%;
+    --sidebar-primary: 180 60% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 10% 25%;
+    --sidebar-accent-foreground: 220 10% 90%;
+    --sidebar-border: 220 10% 30%;
+    --sidebar-ring: 180 60% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    @apply transition-colors duration-200;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24 px-4 sm:px-6 lg:px-8;
+  }
+  .container-max {
+     @apply max-w-7xl mx-auto;
+  }
+}
