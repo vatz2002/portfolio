@@ -46,7 +46,6 @@ export default function AboutSection() {
                 ))}
               </CardContent>
             </Card>
-
             {/* Removed the Fun Facts / Tech I Love Card */}
           </div>
         </div>
