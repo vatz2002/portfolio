@@ -31,7 +31,7 @@ const skills: Skill[] = [
   { name: 'HTML5', category: 'Frontend', icon: <HtmlIcon /> },
   { name: 'CSS', category: 'Styling', icon: <CssIcon /> },
   { name: 'JavaScript', category: 'Frontend', icon: <JsIcon /> },
-  { name: 'TypeScript', category: 'Frontend', icon: <TsIcon />},
+  { name: 'TypeScript', category: 'Frontend', icon: <TsIcon /> },
   { name: 'React.js', category: 'Framework/Library', icon: <ReactIcon /> },
   { name: 'Next.js', category: 'Framework/Library', icon: <NextjsIcon /> },
   { name: 'Tailwind CSS', category: 'Styling', icon: <TailwindIcon /> },
@@ -42,6 +42,11 @@ const skills: Skill[] = [
   { name: 'Responsive Web Design', category: 'Other', icon: <Smartphone size={36} className="text-purple-500" /> },
   { name: 'Project Management Basics', category: 'Other', icon: <ClipboardList size={36} className="text-yellow-600" /> },
   { name: 'Web Deployment', category: 'DevOps', icon: <Cloud size={36} className="text-blue-500" /> },
+  { name: 'Flask', category: 'Framework/Library', icon: <Code size={36} className="text-red-500" /> },
+  { name: 'Django', category: 'Framework/Library', icon: <Code size={36} className="text-green-500" /> },
+  { name: 'MongoDB', category: 'Backend', icon: <Server size={36} className="text-green-500" /> },
+  { name: 'Python', category: 'Backend', icon: <Code size={36} className="text-blue-500" /> },
+  { name: "vercel", category: 'DevOps', icon: <Cloud size={36} className="text-gray-500" /> },
 ];
 
 // Updated categories list based on the skills
@@ -106,7 +111,7 @@ export default function SkillsSection() {
           ))}
         </div>
         {filteredSkills.length === 0 && (
-           <p className="text-center text-muted-foreground mt-8">No skills found in this category.</p>
+          <p className="text-center text-muted-foreground mt-8">No skills found in this category.</p>
         )}
       </div>
     </AnimatedSection>

@@ -2,7 +2,7 @@ import AnimatedSection from './animated-section';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { GraduationCap, Code } from 'lucide-react'; // Removed Sparkles icon
 
-const techStack = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Tailwind CSS', 'Next.js', 'Git'];
+const techStack = ['HTML', 'CSS', 'JavaScript', 'React.js', 'Tailwind CSS', 'Next.js', 'Git', 'GitHub', 'Python', 'Django', 'Flask', 'MongoDB'];
 
 export default function AboutSection() {
   return (
@@ -31,7 +31,7 @@ export default function AboutSection() {
           </Card>
 
           <div className="space-y-8">
-             <Card className="shadow-md">
+            <Card className="shadow-md">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Code className="text-primary" />
@@ -47,7 +47,7 @@ export default function AboutSection() {
               </CardContent>
             </Card>
 
-             {/* Removed the Fun Facts / Tech I Love Card */}
+            {/* Removed the Fun Facts / Tech I Love Card */}
           </div>
         </div>
       </div>
