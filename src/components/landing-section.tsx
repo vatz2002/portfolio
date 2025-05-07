@@ -14,10 +14,10 @@ export default function LandingSection() {
           </h1>
           {/* Removed React Enthusiast subtitle */}
           <p className="text-lg md:text-xl text-primary font-medium">
-            Frontend Developer
+            Fullstack Developer
           </p>
           <p className="text-muted-foreground max-w-xl mx-auto md:mx-0">
-            A passionate fresher frontend developer dedicated to building beautiful and functional web applications. Eager to learn and contribute to innovative projects.
+            A passionate full-stack developer with a strong foundation in both frontend and backend technologies, eager to build robust, scalable, and user-friendly web applications while continuously learning and contributing to impactful projects.
           </p>
           <div className="flex justify-center md:justify-start space-x-4 pt-4">
             <Button asChild variant="outline" size="icon">
