@@ -1,15 +1,19 @@
 {
   "node": {
-    "60b0789a9ba3b701e781c60d138b2035fdf0c7841f": {
+    "602f247a66460d9315845aa7b8f0d55e9e1fd458c2": {
       "workers": {
         "app/page": {
-          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/actions/send-email.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
+          "moduleId": 32259,
+          "async": false,
+          "exportedName": "sendContactEmail",
+          "filename": "src/actions/send-email.ts"
         }
       },
       "layer": {
         "app/page": "action-browser"
-      }
+      },
+      "exportedName": "sendContactEmail",
+      "filename": "src/actions/send-email.ts"
     }
   },
   "edge": {}
