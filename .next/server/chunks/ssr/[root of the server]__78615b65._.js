@@ -895,6 +895,66 @@ const skills = [
             lineNumber: 44,
             columnNumber: 55
         }, this)
+    },
+    {
+        name: 'Flask',
+        category: 'Framework/Library',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Code$3e$__["Code"], {
+            size: 36,
+            className: "text-red-500"
+        }, void 0, false, {
+            fileName: "[project]/src/components/skills-section.tsx",
+            lineNumber: 45,
+            columnNumber: 57
+        }, this)
+    },
+    {
+        name: 'Django',
+        category: 'Framework/Library',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Code$3e$__["Code"], {
+            size: 36,
+            className: "text-green-500"
+        }, void 0, false, {
+            fileName: "[project]/src/components/skills-section.tsx",
+            lineNumber: 46,
+            columnNumber: 58
+        }, this)
+    },
+    {
+        name: 'MongoDB',
+        category: 'Backend',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$server$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Server$3e$__["Server"], {
+            size: 36,
+            className: "text-green-500"
+        }, void 0, false, {
+            fileName: "[project]/src/components/skills-section.tsx",
+            lineNumber: 47,
+            columnNumber: 49
+        }, this)
+    },
+    {
+        name: 'Python',
+        category: 'Backend',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Code$3e$__["Code"], {
+            size: 36,
+            className: "text-blue-500"
+        }, void 0, false, {
+            fileName: "[project]/src/components/skills-section.tsx",
+            lineNumber: 48,
+            columnNumber: 48
+        }, this)
+    },
+    {
+        name: "vercel",
+        category: 'DevOps',
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cloud$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Cloud$3e$__["Cloud"], {
+            size: 36,
+            className: "text-gray-500"
+        }, void 0, false, {
+            fileName: "[project]/src/components/skills-section.tsx",
+            lineNumber: 49,
+            columnNumber: 47
+        }, this)
     }
 ];
 // Updated categories list based on the skills
@@ -905,7 +965,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 49,
+            lineNumber: 54,
             columnNumber: 24
         }, this)
     },
@@ -915,7 +975,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 50,
+            lineNumber: 55,
             columnNumber: 29
         }, this)
     },
@@ -925,7 +985,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 51,
+            lineNumber: 56,
             columnNumber: 28
         }, this)
     },
@@ -935,7 +995,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 52,
+            lineNumber: 57,
             columnNumber: 38
         }, this)
     },
@@ -945,7 +1005,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 53,
+            lineNumber: 58,
             columnNumber: 28
         }, this)
     },
@@ -955,7 +1015,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 54,
+            lineNumber: 59,
             columnNumber: 27
         }, this)
     },
@@ -965,7 +1025,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 55,
+            lineNumber: 60,
             columnNumber: 36
         }, this)
     },
@@ -975,7 +1035,7 @@ const categories = [
             className: "mr-2 h-4 w-4"
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 56,
+            lineNumber: 61,
             columnNumber: 26
         }, this)
     }
@@ -1002,7 +1062,7 @@ const SkillCard = ({ skill })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__
                         children: skill.icon
                     }, void 0, false, {
                         fileName: "[project]/src/components/skills-section.tsx",
-                        lineNumber: 67,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1010,23 +1070,23 @@ const SkillCard = ({ skill })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__
                         children: skill.name
                     }, void 0, false, {
                         fileName: "[project]/src/components/skills-section.tsx",
-                        lineNumber: 68,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/skills-section.tsx",
-                lineNumber: 66,
+                lineNumber: 71,
                 columnNumber: 7
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 65,
+            lineNumber: 70,
             columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/skills-section.tsx",
-        lineNumber: 60,
+        lineNumber: 65,
         columnNumber: 3
     }, this);
 function SkillsSection() {
@@ -1043,7 +1103,7 @@ function SkillsSection() {
                     children: "My Tech Stack"
                 }, void 0, false, {
                     fileName: "[project]/src/components/skills-section.tsx",
-                    lineNumber: 84,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1059,12 +1119,12 @@ function SkillsSection() {
                             ]
                         }, category.name, true, {
                             fileName: "[project]/src/components/skills-section.tsx",
-                            lineNumber: 89,
+                            lineNumber: 94,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/skills-section.tsx",
-                    lineNumber: 87,
+                    lineNumber: 92,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1073,12 +1133,12 @@ function SkillsSection() {
                             skill: skill
                         }, skill.name, false, {
                             fileName: "[project]/src/components/skills-section.tsx",
-                            lineNumber: 105,
+                            lineNumber: 110,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/skills-section.tsx",
-                    lineNumber: 103,
+                    lineNumber: 108,
                     columnNumber: 9
                 }, this),
                 filteredSkills.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1086,18 +1146,18 @@ function SkillsSection() {
                     children: "No skills found in this category."
                 }, void 0, false, {
                     fileName: "[project]/src/components/skills-section.tsx",
-                    lineNumber: 109,
-                    columnNumber: 12
+                    lineNumber: 114,
+                    columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/skills-section.tsx",
-            lineNumber: 83,
+            lineNumber: 88,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/skills-section.tsx",
-        lineNumber: 82,
+        lineNumber: 87,
         columnNumber: 5
     }, this);
 }

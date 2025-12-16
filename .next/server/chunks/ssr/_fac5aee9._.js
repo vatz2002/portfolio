@@ -630,7 +630,7 @@ function LandingSection() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg md:text-xl text-primary font-medium",
-                            children: "Frontend Developer"
+                            children: "Fullstack Developer"
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing-section.tsx",
                             lineNumber: 16,
@@ -638,7 +638,7 @@ function LandingSection() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-muted-foreground max-w-xl mx-auto md:mx-0",
-                            children: "A passionate fresher frontend developer dedicated to building beautiful and functional web applications. Eager to learn and contribute to innovative projects."
+                            children: "A passionate full-stack developer with a strong foundation in both frontend and backend technologies, eager to build robust, scalable, and user-friendly web applications while continuously learning and contributing to impactful projects."
                         }, void 0, false, {
                             fileName: "[project]/src/components/landing-section.tsx",
                             lineNumber: 19,
@@ -875,7 +875,12 @@ const techStack = [
     'React.js',
     'Tailwind CSS',
     'Next.js',
-    'Git'
+    'Git',
+    'GitHub',
+    'Python',
+    'Django',
+    'Flask',
+    'MongoDB'
 ];
 function AboutSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$animated$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1013,7 +1018,7 @@ function AboutSection() {
                             }, void 0, true, {
                                 fileName: "[project]/src/components/about-section.tsx",
                                 lineNumber: 34,
-                                columnNumber: 14
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/about-section.tsx",
